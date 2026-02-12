@@ -71,9 +71,9 @@
 </head>
 <body class="bg-background-dark text-white font-display transition-colors duration-300 antialiased overflow-x-hidden">
 <input class="modal-toggle" id="modal-ucsd" type="checkbox"/>
-<div class="modal-overlay fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
-<div class="relative w-full max-w-2xl bg-surface-dark border border-primary rounded-xl shadow-[0_0_30px_rgba(0,229,255,0.2)] p-8 max-h-[90vh] overflow-y-auto">
-<label class="absolute top-4 right-4 text-text-secondary hover:text-primary cursor-pointer transition-colors" for="modal-ucsd">
+<div class="modal-overlay fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4" onclick="document.getElementById('modal-ucsd').checked = false;">
+<div class="relative w-full max-w-2xl bg-surface-dark border border-primary rounded-xl shadow-[0_0_30px_rgba(0,229,255,0.2)] p-8 max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation();">
+<label class="absolute top-4 right-4 text-text-secondary hover:text-primary cursor-pointer transition-colors" for="modal-ucsd" onclick="event.stopPropagation();">
 <span class="material-symbols-outlined text-3xl">close</span>
 </label>
 <div class="mb-6 border-b border-surface-lighter/50 pb-4">
@@ -125,9 +125,9 @@
 </div>
 </div>
 <input class="modal-toggle" id="modal-svce" type="checkbox"/>
-<div class="modal-overlay fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
-<div class="relative w-full max-w-2xl bg-surface-dark border border-primary rounded-xl shadow-[0_0_30px_rgba(0,229,255,0.2)] p-8 max-h-[90vh] overflow-y-auto">
-<label class="absolute top-4 right-4 text-text-secondary hover:text-primary cursor-pointer transition-colors" for="modal-svce">
+<div class="modal-overlay fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4" onclick="document.getElementById('modal-svce').checked = false;">
+<div class="relative w-full max-w-2xl bg-surface-dark border border-primary rounded-xl shadow-[0_0_30px_rgba(0,229,255,0.2)] p-8 max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation();">
+<label class="absolute top-4 right-4 text-text-secondary hover:text-primary cursor-pointer transition-colors" for="modal-svce" onclick="event.stopPropagation();">
 <span class="material-symbols-outlined text-3xl">close</span>
 </label>
 <div class="mb-6 border-b border-surface-lighter/50 pb-4">
